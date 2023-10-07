@@ -1,0 +1,9 @@
+:root {
+    --desired-height: calc(100vh - 12.5rem);
+  }
+  
+  .element {
+    height: var(--desired-height);
+    background-color: #f0f0f0; /* Add your desired styles */
+  }
+  

@@ -1,0 +1,53 @@
+{
+    "messages": [
+      {
+        "dateIST": "01-10-2023",
+        "timeIST": "10:30",
+        "agencyName": "National Disaster Response Force (NDRF)",
+        "message": "Urgent help needed in flood-affected area. Send rescue teams ASAP."
+      },
+      {
+        "dateIST": "30-09-2023",
+        "timeIST": "15:45",
+        "agencyName": "Indian Air Force (IAF)",
+        "message": "Airborne rescue requested in landslide-hit region. Multiple casualties reported."
+      },
+      {
+        "dateIST": "29-09-2023",
+        "timeIST": "08:20",
+        "agencyName": "State Disaster Response Force (SDRF) - Maharashtra",
+        "message": "Requesting medical supplies for earthquake-affected areas. Medical assistance urgently needed."
+      },
+      {
+        "dateIST": "28-09-2023",
+        "timeIST": "12:10",
+        "agencyName": "Indian Coast Guard",
+        "message": "Rescue operation underway in cyclone-affected coastal areas. Additional boats required."
+      },
+      {
+        "dateIST": "27-09-2023",
+        "timeIST": "14:55",
+        "agencyName": "Fire Services Department",
+        "message": "Fire outbreak in a residential area. Need more fire tenders and personnel."
+      },
+      {
+        "dateIST": "26-09-2023",
+        "timeIST": "09:35",
+        "agencyName": "Central Reserve Police Force (CRPF)",
+        "message": "Security assistance needed during flood relief operations. Situation critical."
+      },
+      {
+        "dateIST": "25-09-2023",
+        "timeIST": "17:20",
+        "agencyName": "National Health Mission (NHM)",
+        "message": "Seeking medical professionals for providing aid in a disease outbreak. Hospitals overwhelmed."
+      },
+      {
+        "dateIST": "24-09-2023",
+        "timeIST": "11:40",
+        "agencyName": "Indian Red Cross Society",
+        "message": "Urgently need blood donations for accident victims. Blood banks running low."
+      }
+    ]
+  }
+  

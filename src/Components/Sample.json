@@ -1,0 +1,65 @@
+{
+    "requests": [
+      {
+        "status": "Resolved",
+        "personName": "John Doe",
+        "requesteeNumber": "+1234567890",
+        "dateTimeIST": "2023-10-03 15:30 IST",
+        "location": {
+          "longitude": "12.9716",
+          "latitude": "77.5946"
+        },
+        "requestID": "REQ001",
+        "disasterType": "Earthquake"
+      },
+      {
+        "status": "Not Resolved",
+        "personName": "Alice Smith",
+        "requesteeNumber": "+9876543210",
+        "dateTimeIST": "2023-10-04 09:45 IST",
+        "location": {
+          "longitude": "17.3850",
+          "latitude": "78.4867"
+        },
+        "requestID": "REQ002",
+        "disasterType": "Flood"
+      },
+      {
+        "status": "Not Resolved",
+        "personName": "Michael Johnson",
+        "requesteeNumber": "+1122334455",
+        "dateTimeIST": "2023-10-05 12:00 IST",
+        "location": {
+          "longitude": "28.6139",
+          "latitude": "77.2090"
+        },
+        "requestID": "REQ003",
+        "disasterType": "Fire"
+      },
+      {
+        "status": "Resolved",
+        "personName": "Sarah Brown",
+        "requesteeNumber": "+9988776655",
+        "dateTimeIST": "2023-10-06 17:20 IST",
+        "location": {
+          "longitude": "13.0827",
+          "latitude": "80.2707"
+        },
+        "requestID": "REQ004",
+        "disasterType": "Medical Emergency"
+      },
+      {
+        "status": "Not Resolved",
+        "personName": "David Lee",
+        "requesteeNumber": "+6677889900",
+        "dateTimeIST": "2023-10-07 19:10 IST",
+        "location": {
+          "longitude": "22.5726",
+          "latitude": "88.3639"
+        },
+        "requestID": "REQ005",
+        "disasterType": "Road Accident"
+      }
+    ]
+  }
+  
