@@ -1,9 +1,9 @@
 
 import './App.css';
-import { Component ,useState} from 'react';
+import { useState} from 'react';
 import Navbar from './Components/Navbar'
 import {lati,long} from './Components/Alert';
-import Option from './Components/AgencyOption';
+// import Option from './Components/AgencyOption';
 import Combined from './Components/Combined';
 import PopPvt from './Components/UpdateSend';
 import PubPost from './Components/BulletinPost';
@@ -31,6 +31,7 @@ const App=()=>{
   }
   const pvtChangeData=(data)=>{
     pvtsetData(data);
+    console.log(pvtData);
   }
   const pubToggle=()=>{
     console.log("heloo")
@@ -43,6 +44,7 @@ const App=()=>{
   }
   const pubChangeData=(data)=>{
     pubsetData(data);
+    console.log(pubData);
   }
   const getCoods=()=>{
     let coords={agency :{lat:agencylat,long:agenctlong},user:{lat:lati,long}};
@@ -51,8 +53,6 @@ const App=()=>{
   }
   const letShowMap=()=>{
     toggle();
- 
-
   }
     return(
       <>

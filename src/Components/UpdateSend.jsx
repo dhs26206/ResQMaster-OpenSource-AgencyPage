@@ -10,10 +10,12 @@ const PopPvt=({isVisible,Post,Data,Toggle})=>{
     }
     return(
     <div  className={`${isVisible?' bg-gray-200 bg-opacity-50':'hidden'} fixed inset-0 w-full h-screen flex justify-center items-center z-50 `}>
-        <div  className={` min-w-[30%] min-h-[55%] bg-white animate__animated ${delayhide?'animate__fadeIn':'animate__fadeOut'}`}>
-            <div className="flex justify-between h-[4%] bg-blue-700">
+        <div  className={`rounded-lg min-w-[30%] min-h-[55%] bg-white animate__animated ${delayhide?'animate__fadeIn':'animate__fadeOut'}`}>
+            <div className="flex justify-between h-[4%] bg-blue-700 rounded-t-lg">
                 <p className="pl-2 text-white ">ResQMaster</p>
-                <button className=" pr-2  text-white hover:bg-red-700 text-lg text-center" onClick={Ting} type="button">x</button>
+                <button className="w-9 text-white hover:bg-red-700 rounded-tr-lg flex justify-center" onClick={Ting} type="button">
+                <img src="./close.svg" className="h-full" alt="close" srcset="" />
+                </button>
             </div>
             <div className="flex flex-col min-h-[95%] ">
                 <h1 className=" text-center text-lg" >Alert to Other Agencies</h1>
