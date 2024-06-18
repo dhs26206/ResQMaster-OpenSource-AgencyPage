@@ -1,17 +1,21 @@
 import React from "react";
 import "./danger.css"
-import data from "./Updates.json";
+// import data from "./Updates.json";
+import { getUsernameFromURL,getBack } from "./Utility";
+let link = `${getBack()}/user/${getUsernameFromURL()}/getUpdates`;
+let data1= await fetch(link);
+let data = await data1.json();
 const Option=({pvtClicked,pubClicked})=>{
     return(
         <div className="element flex flex-col md:max-w-[30%] w-full  rounded-xl border-gray-500 border-2">
             <div className="" > 
             <h2 className="pt-3 text-3xl border-b-2 border-black" >Updates !</h2>  
                 <div className="h-[370px]" style={{overflow:'scroll',height:'370px'}} >
-                    {data.messages.map((request)=>(
+                    {data.map((request)=>(
                         <div className="flex flex-col pb-10 border-b-2 border-gray-700 pl-1">
-                            <p><span className=" font-bold">Name:</span>{request.agencyName}</p>
-                            <p><span className=" font-bold">Date:</span>{request.dateIST}</p>
-                            <p><span className=" font-bold">Time:</span>{request.timeIST}</p>
+                            <p><span className=" font-bold">Name:</span>{request.username}</p>
+                            <p><span className=" font-bold">Date:</span>{request.date}</p>
+                            <p><span className=" font-bold">Time:</span>{request.time}</p>
                             <p><span className=" font-bold">Message:</span>{request.message}</p>
                             {/* <p><span className=" font-bold">Name:</span>{request.agencyName}</p> */}
                         </div>

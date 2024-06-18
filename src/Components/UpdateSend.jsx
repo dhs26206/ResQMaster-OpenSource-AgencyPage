@@ -1,8 +1,12 @@
-import React from "react";
+import React,{useState} from "react";
 import 'animate.css';
+// import { getUsernameFromURL,getBack } from "./Utility";
+// let link = `${getBack}/user/${getUsernameFromURL}/postpvt`;
+
 const PopPvt=({isVisible,Post,Data,Toggle})=>{
     // {console.log(isVisible)}
     let delayhide=isVisible;
+    
     const Ting=(event)=>{
         event.stopPropagation();
         setTimeout(Toggle,150);
