@@ -6,7 +6,7 @@ export function getUsernameFromURL() {
     // return "ndrfdelhi";
   }
 export function getBack(){
-    const backendurl ="https://video.ddks.live";
+    const backendurl ="https://video.ddks.tech";
     return backendurl
 }
 
