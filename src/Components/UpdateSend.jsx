@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React from "react";
 import 'animate.css';
 // import { getUsernameFromURL,getBack } from "./Utility";
 // let link = `${getBack}/user/${getUsernameFromURL}/postpvt`;
