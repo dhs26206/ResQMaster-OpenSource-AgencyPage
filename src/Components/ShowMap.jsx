@@ -43,7 +43,7 @@ useEffect(() => {
   if (isVisible) {
     fetchUserCoords();
   }
-}, [isVisible]);
+}, [isVisible,coords]);
 
 useEffect(() => {
   async function fetchAgencyCoords() {
