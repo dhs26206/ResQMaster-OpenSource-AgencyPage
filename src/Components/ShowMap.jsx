@@ -10,10 +10,7 @@ async function getCoords() {
   // console.log(data);
   return data;
 }
-let coordinate = {
-  agency: { lat: 0, long: 0 },
-  user: { lat:0, long: 0 }
-};
+
 const customIconAgency = L.icon({
   iconUrl: "./redmark.png",
   iconSize: [32, 32], // adjust the size of the icon
@@ -56,7 +53,7 @@ useEffect(() => {
   }
 
   fetchAgencyCoords();
-}, []);
+});
 
     // useEffect(() => {
     //   // To fix map display issue
