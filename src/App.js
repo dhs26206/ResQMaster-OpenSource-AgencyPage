@@ -36,7 +36,7 @@ const App=()=>{
     let message = pvtData;
     if(message.length>0){
       let obj={message};
-      await fetch(linkpvt, {
+      await fetch(linkpvt,{
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -56,16 +56,17 @@ const App=()=>{
   }
   const pubPost= async(event)=> {
     let message = pubData;
-    console.log("Tere Mere sapne")
+    
     console.log(message.length);
     if(message.length>0){
       let obj={message};
-      let check=await fetch(linkpub, {
+      await fetch(linkpub,{
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
         },
         body: JSON.stringify(obj)}) .catch((error)=>{console.log(error)});
+      
     }
 
     pubToggle();
@@ -84,8 +85,8 @@ const App=()=>{
   }
   const logoutUser=async()=>{
     console.log("I got triggered ");
-    window.location.href="https://aws1.ddks.live";
-    let complete = await fetch(linklog);
+    window.location.href="https://resq.ddks.tech";
+    await fetch(linklog);
   }
     return(
       <>
